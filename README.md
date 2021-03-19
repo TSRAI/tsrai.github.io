@@ -4,7 +4,7 @@ This is the repository that contains source code for the [website](https://tsrai
 
 If you find our work useful please cite our papers:
 ```
-inproceedings{rai2019can,
+@inproceedings{rai2019can,
   title={Can ImageNet feature maps be applied to small histopathological datasets for the classification of breast cancer metastatic tissue in whole slide images?},
   author={Rai, Taranpreet and Morisi, A and Bacci, B and Bacon, NJ and Thomas, SA and La Ragione, RM and Bober, M and Wells, K},
   booktitle={Medical Imaging 2019: Digital Pathology},
