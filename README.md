@@ -1,4 +1,4 @@
-# Digital Pathology
+# Digital Pathology Lab
 
 This is the repository that contains source code for the [website](https://tsrai.github.io).
 
