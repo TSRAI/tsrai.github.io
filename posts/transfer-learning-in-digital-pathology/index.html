@@ -172,7 +172,17 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first
+            The scarcity of large histopathological datasets can be problematic for Deep Learning in medical imaging and digital pathology. 
+            However, transfer Learning has been shown to be promising for the effective training of classifiers on smaller datasets. 
+            ImageNet is a popular dataset that is commonly used for transfer learning in various domains. 
+            The features extracted from the ImageNet dataset are generalizable and can be applied to alternative tasks and datasets. 
+            Deep Learning typically requires a vast amount of data for training, however, in our study we interrogated two datasets with 
+            patches extracted from only 30 whole slide images (WSIs) and 60 WSIs respectively. As a consequence, we decided to extract features 
+            and feed them into separate classifier models such as a fully connected softmax layer, Support Vector Machines (SVM) and Logistic Regression. 
+            This study demonstrated that for the small dataset, the best pretrained feature extractor was DenseNet201, whereas the best model for 
+            training was a fully connected softmax layer with a reported accuracy of 88.20% and an average f1-score of 0.881. For the larger dataset size, 
+            the best feature extractor was InceptionResNetV2 where the highest accuracy and f1-score of 90.60% and 0.908 was produced when classified using a 
+            fully connected softmax layer. All models, apart from ResNet50 demonstrated an improvement in performance when pretraining using ImageNet for bottleneck feature extraction.
           </p>
           <p>
             Our approach -- <span class="dnerf">D-NeRF</span> -- augments neural radiance fields
